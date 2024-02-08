@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.youtube{
+    padding: 0 0 2px 15px;
+}
+.notificacao{
+    padding: 0 15px;
+}
+.avatar{
+    width: 25px;
+}
+main{
+    display: flex;
+}
+aside{
+    width:290px;
+}
+aside li{
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    padding: 10px;
+}
+aside li:hover{
+    cursor: pointer;
+}
+aside li p{
+    padding: 3px 0 0 0;
+}
+.main{
+    display: grid;
+    padding: 20px 0 0 90px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.main div{
+    padding: 10px;
+}
+.main div ul{
+    display: flex;
+}
+.main p{
+    padding: 4px 0 0 10px;
+    font-weight: bolder;
+}
+.main span{
+    padding: 0 0 0 10px;
+    font-size: 12px;
+}
+.main .logo{
+    border: 1px none;
+    border-radius: 50%;
+    width: 40px;
+}
